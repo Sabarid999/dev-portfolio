@@ -28,14 +28,13 @@
 
 
 
-body{
-    background: url(../images/top-banner.png) no-repeat;
-}
 
 
-
+/* =======================BANNER-PART CSS STARTS HERE======================= */
 #banner-part{
     width: 100%;
+    background: url(../images/top-banner.png) no-repeat;
+    margin-bottom: 100px;
 }
 
 #banner-part .left{
@@ -48,7 +47,7 @@ body{
 }
 
 #banner-part h1{
-    f9755e
+    font-family: 'Poppins', sans-serif;
     font-size: 50px;
     margin-top: 150px;
 }
@@ -95,11 +94,105 @@ body{
 #banner-part .left a:hover{
     background:linear-gradient(#5ee2f9, #b1f1fc);
 }
+/* =======================BANNER-PART CSS ENDS HERE======================= */
 
 
 
 
 
+/* =======================DREAM-PART CSS STARTS HERE======================= */
+#dream-part{
+    background: url(../images/dream-bg.png) no-repeat ;
+    background-position: right;
+}
+
+#dream-part .left{
+    width: 50%;
+    padding-right: 40px;
+}
+
+#dream-part .right{
+    width: 50%;
+}
+
+#dream-part .left img{
+    width: 100%;
+}
+
+#dream-part h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+#dream-part h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+#dream-part p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+
+#dream-part .right a{
+    background: linear-gradient(#f9755e,#fba394);
+    padding: 10px 25px;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px ;
+    font-weight: 500;
+    border-radius: 5px;
+    color: #fff;
+    transition: .2s;
+}
+
+#dream-part .right a:hover{
+    background:linear-gradient(#5ee2f9, #b1f1fc);
+}
+/* =======================DREAM-PART CSS ENDS HERE======================= */
+
+
+
+
+
+
+
+/* =======================EXPERINCE-PART CSS STARTS HERE======================= */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* =======================EXPERINCE-PART CSS ENDS HERE======================= */
 
 
 
