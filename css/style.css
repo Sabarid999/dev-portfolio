@@ -163,35 +163,69 @@
 
 
 /* =======================EXPERINCE-PART CSS STARTS HERE======================= */
+#experience-part{
+    background: url(../images/exp-bg.png) no-repeat;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+#experience-part .title{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#experience-part .title h2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
 
 
+#experience-part .left{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    border-left: 8px solid;
+    border-image: linear-gradient(#f9755e,#fba394);
+    border-image-slice: 1;
+    -webkit-box-shadow: -1px 1px 31px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 31px -5px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 31px -5px rgba(0,0,0,0.75);
+}
 
+#experience-part .right{
+    width: 50%;
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    margin-left: 50px;
+    border-left: 8px solid;
+    border-image: linear-gradient(#5ee2f9,#b1f1fc);
+    border-image-slice: 1;
+    -webkit-box-shadow: -1px 1px 31px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 1px 31px -5px rgba(0,0,0,0.75);
+    box-shadow: -1px 1px 31px -5px rgba(0,0,0,0.75);
+}
 
+#experience-part h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
 
+#experience-part h4{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #5ee2f9;
+    margin-bottom: 20px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#experience-part p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+}
 /* =======================EXPERINCE-PART CSS ENDS HERE======================= */
 
 
